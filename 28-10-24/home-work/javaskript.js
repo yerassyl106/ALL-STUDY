@@ -1,0 +1,1 @@
+console.log("java from javaskript.js")

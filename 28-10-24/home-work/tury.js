@@ -1,0 +1,1 @@
+console.log("tury from tury.js")

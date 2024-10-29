@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test js</title>
+    <!-- Internal css -->
+     <style>
+        #logo{
+            transition: .5s;
+            
+
+        }
+     </style>
+</head>
+<body>
+
+    <h1 id="logo">logo</h1>
+    <button onclick="document.getElementById('logo').innerHTML='company'">who is the best</button>
+    <button onclick="document.getElementById('logo').style.color='green'">change color</button>
+    <button onclick="document.getElementById('logo').style.marginLeft='300px'">-></button>
+    <button onclick="document.getElementById('logo').style.marginLeft='0px'"><-</button>
+    <button onclick="document.getElementById('logo').style.color='green'">change color</button>
+    <!-- Internal Javascript -->     
+    <script>
+        console.log("hello world")
+    </script>
+     <button onclick="console.log('Barselona')">who is the best</button>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+    <script src="search.js"></script>
+    <script src="sign.js"></script>
+</body>
+</html>

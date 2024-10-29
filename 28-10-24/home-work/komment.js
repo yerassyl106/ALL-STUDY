@@ -1,0 +1,1 @@
+console.log("komment from komment.js")
